@@ -1,0 +1,16 @@
+<div class= "transaction-sheet">
+  <div class= "l-grid">
+    <h1 class="header">Date</h1>
+    <div class="header">Credit</div>
+    <div class="header">Debit</div>
+    <div class="header">Amount</div>
+    <div class="header">Comments</div>
+    {{#each transactions}}
+      <div>{{ date }}</div>
+      <div>{{ credit }}</div>
+      <div>{{ debit }}</div>
+      <div>{{ amount }}</div>
+      <div>{{ comments }}</div>
+    {{/each }}
+  </div>
+</div>

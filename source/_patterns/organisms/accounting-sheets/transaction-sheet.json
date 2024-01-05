@@ -1,0 +1,18 @@
+{
+  "transactions": [
+    {
+      "date": "1/1/2023",
+      "credit": "Cash",
+      "debit": "Shares",
+      "amount": "100",
+      "comment": "Sold stock to Alex"    
+    },
+    {
+      "date": "2/1/2023",
+      "credit": "Cash",
+      "debit": "Shares",
+      "amount": "100",
+      "comment": "Sold stock to Alex"    
+    }
+  ]  
+}

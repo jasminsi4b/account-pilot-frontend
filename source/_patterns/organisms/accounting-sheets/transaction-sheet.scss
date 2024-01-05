@@ -1,0 +1,18 @@
+.transaction-sheet {
+  overflow: auto;
+
+  .grid {
+    display: grid;
+    grid-template-columns: auto 2fr 2fr 1fr 2fr;
+    background-color: #ffffff;
+  
+    .header {
+      font-size: 19px;
+    }
+  
+    div {
+      padding: 15px;
+      border: solid 1px #EFEFEF;
+    }
+  }  
+}
